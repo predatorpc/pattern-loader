@@ -1,0 +1,22 @@
+{
+  "integrationName": "MetaCPA",
+  "api": {
+    "url": "http://localhost:8080/v1/lead/accept",
+    "method": "post"
+  },
+  "settings": {
+    "AddHeader": "Content-type: application/json"
+  },
+  "params": {
+    "sub1": true,
+    "sub2": true,
+    "sub3": true,
+    "click_hash": true,
+    "flow_hash": true,
+    "webmaster_currency_id": true,
+    "webmaster_id": true,
+    "geo": true,
+    "pl_id": true,
+    "lp_id": true
+  }
+}

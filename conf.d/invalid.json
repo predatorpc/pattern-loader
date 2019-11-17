@@ -1,0 +1,17 @@
+{
+  "integrationName": "Invalid",
+  "api": {
+    "url": "http://localhost/to/the/url",
+    "method": "get"
+  },
+  "settings": {
+    "addHeader": "Content-type: text/html; utf-8",
+    "timeOutSec" : 10,
+    "sendPostBack": true
+  },
+  "params": {
+    "sub1": true,
+    "click_hash": true,
+    "flow_hash": true
+  }
+}
