@@ -37,8 +37,8 @@ const charset = "abcdefghijklmnopqrstuvwxyz" +
 	"ABCDEFGHIJKLMNOPQRSTUVWXYZ" +
 	"0123456789"
 const WriteToLogOnly = false
-const LogFileName = "tds-out.log"
-const LogRequestFileName = "tds-in.log"
+const LogFileName = "out.log"
+const LogRequestFileName = "in.log"
 
 var CURRENT_TIMESTAMP string
 var CURRENT_UNIXTIME time.Time
